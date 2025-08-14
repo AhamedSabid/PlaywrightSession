@@ -1,0 +1,7 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","17","example test","chromium","Thu Aug 14 16:10:01 IST 2025","skipped","Thu Aug 14 16:10:01 IST 2025","","RegLocators.spec.ts","",""
+"","32951","test with different locators","webkit","Thu Aug 14 16:11:29 IST 2025","broken","Thu Aug 14 16:12:02 IST 2025","","RegLocators.spec.ts","",""
+"","1","example test","webkit","Thu Aug 14 16:10:01 IST 2025","skipped","Thu Aug 14 16:10:01 IST 2025","","RegLocators.spec.ts","",""
+"","1","example test","firefox","Thu Aug 14 16:10:01 IST 2025","skipped","Thu Aug 14 16:10:01 IST 2025","","RegLocators.spec.ts","",""
+"","32487","test with different locators","chromium","Thu Aug 14 16:11:28 IST 2025","broken","Thu Aug 14 16:12:01 IST 2025","","RegLocators.spec.ts","",""
+"","31141","test with different locators","firefox","Thu Aug 14 16:11:46 IST 2025","broken","Thu Aug 14 16:12:17 IST 2025","","RegLocators.spec.ts","",""

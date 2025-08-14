@@ -1,0 +1,1346 @@
+# Page snapshot
+
+```yaml
+- banner:
+  - link "Automation Panda A blog for software development and testing":
+    - /url: https://automationpanda.com/
+    - heading "Automation Panda" [level=1]
+    - heading "A blog for software development and testing" [level=2]
+  - navigation:
+    - heading "Menu" [level=3]
+    - list:
+      - listitem:
+        - link "Home":
+          - /url: /
+      - listitem:
+        - link "About":
+          - /url: https://automationpanda.com/about/
+      - listitem:
+        - link "Contact":
+          - /url: https://automationpanda.com/contact/
+      - listitem:
+        - link "Speaking":
+          - /url: https://automationpanda.com/speaking/
+      - listitem:
+        - link "Teaching":
+          - /url: https://automationpanda.com/teaching/
+      - listitem:
+        - link "BDD":
+          - /url: https://automationpanda.com/bdd/
+      - listitem:
+        - link "Development":
+          - /url: https://automationpanda.com/development/
+      - listitem:
+        - link "Testing":
+          - /url: https://automationpanda.com/testing/
+      - listitem:
+        - link "Python":
+          - /url: https://automationpanda.com/python/
+    - search:
+      - text: "Search for:"
+      - searchbox "Search for:"
+      - button "Search"
+- main:
+  - article:
+    - link "Mercedes-Benz Sedan Mercedes-Benz W203 Rear Subframe Rust":
+      - /url: https://automationpanda.com/2025/07/24/mercedes-benz-w203-rear-subframe-rust/
+      - img "Mercedes-Benz Sedan"
+      - heading "Mercedes-Benz W203 Rear Subframe Rust" [level=1]
+    - paragraph: Do you own a Mercedes-Benz C-Class (W203) vehicle from the 2000s? If so, did your rear subframe rust from the inside out? If it did, then you’re not alone. Mine also rusted out – and almost killed me when it did. It’s unfortunately a very common problem with many Mercedes models over the past two decades. I’m writing this article to share my experiences and offer advice to anyone else who hits this problem.
+    - heading "What happened to my vehicle?" [level=2]
+    - paragraph:
+      - text: On May 23, 2025, I was driving my 2006 Mercedes-Benz C280 4MATIC from Maryland to North Carolina. At about 10pm, I was driving past Alberta, VA on I-85 South at about 70 mph. I was alert. The road was clear. Then suddenly, I heard and
+      - emphasis: felt
+      - text: a loud “boom,” as if I hit a massive pothole. Immediately, the vehicle started fishtailing violently. Thinking that I must have hit something that I just didn’t see, I slowed down and attempted to regain control of the vehicle with careful steering. I had this happen other times before. However, this time, after a few seconds, the fishtailing became
+      - emphasis: worse
+      - text: .
+    - paragraph: Thankfully, I was near an exit with a well-lit gas station. Praise God! (Bear in mind, on this stretch of I-85, exits can be several miles apart.) I slowed down sharply and pulled off the highway. As I drove into the gas station, I noticed that I had to hold the steering wheel at 90º to the left to keep the car straight. The dashboard also said that ESP (Electronic Stability Program) was no longer working.
+    - paragraph: Once parked, I discovered that the rear driver-side wheel was completely out of alignment. It was severely toe-out with negative camber. There was no way I could safely drive it home. I suspected the axle had broken, but I could not determine the true root cause in the dark. I called AAA for roadside assistance. They sent a tow truck that didn’t show up until about 2:15am – over 4 hours later.
+    - heading "Diagnosing the root cause" [level=2]
+    - paragraph:
+      - text: "The tow truck arrived at the auto shop where my uncle worked at about 4am. We immediately put it on a lift and discovered the root cause:"
+      - strong: the rear subframe had rusted to the point of breaking
+      - text: . There were perforation holes the size of quarters in the subframe. We could poke through the rusted metal with our bare hands. It was crumbling into a myriad of rusty flakes. One of the suspension control arm mounts had completely separated from the frame, which explained the wheel misalignment.
+    - figure
+    - paragraph:
+      - text: "It was then that I realized:"
+      - emphasis: I could have died.
+      - text: If I had lost control, the vehicle could have spun out at 70 mph and perhaps even flipped. I shudder to think if cars behind me could have hit me, too.
+    - heading "Discovering the product defect" [level=2]
+    - paragraph:
+      - text: After a little online sleuthing, I discovered that rear subframe rust was a common problem on several Mercedes-Benz models, particularly the W203 and W204 platforms. In fact, Mercedes-Benz USA
+      - link "extended the warranty on the rear subframe":
+        - /url: https://static.nhtsa.gov/odi/tsbs/2023/MC-10232321-0001.pdf
+      - text: from 4 years / 50K miles to 20 years / unlimited miles for several models, but the C-Class was covered only for years 2008-2015. Unfortunately, my vehicle was not covered because it was a 2006, even though it was the exact same issue.
+    - paragraph:
+      - text: Furthermore, I discovered that there was a
+      - link "class-action lawsuit against Mercedes-Benz USA":
+        - /url: https://www.classaction.org/news/too-dangerous-to-drive-2010-2022-mercedes-benz-models-plagued-by-rear-subframe-rust-defect-class-action-says
+      - text: for this rear subframe rust issue. The lawsuit claims that the rear subframe rust is a product defect that poses a serious safety threat and that Mercedes-Benz’s extended warranty did not do enough to rectify the issue. The lawsuit covered various models from 2010-2022, which again did not cover my vehicle. At the time of writing this article, the lawsuit is still active as Case § 1:23-cv-00636 in the state of Georgia.
+    - heading "Requesting a goodwill repair" [level=2]
+    - paragraph: The repair estimates to fix the subframe were quite expensive. My uncle’s shop quoted over $3000. My local Mercedes-Benz dealership quoted close to $6000. I wasn’t going to pay that much to fix a 20-year-old car.
+    - paragraph:
+      - text: Since this was clearly a known product defect, I asked Mercedes-Benz USA for a goodwill repair. I called the MBUSA customer service line, and they told me to take it to the dealership for an inspection. Then, I asked the service advisor at the dealership to file a goodwill repair request on my behalf. After waiting about a week and calling the customer service line back, a case manager finally contacted me to tell me that MBUSA had
+      - emphasis: rejected
+      - text: my goodwill repair request. I was on my own to fix the problem.
+    - heading "Fixing the problem myself" [level=2]
+    - paragraph: I chose to replace the rear subframe myself. I bought an after-market subframe as well as new suspension control arms, new spring mounts, a new sway bar, and new bolts, since all those parts also rusted. I spent about $1100 total in parts. The job was a LOT of work, and I would not recommend it for anyone not experienced with car repairs. Nevertheless, I was able to do it all in my home garage with standard tools.
+    - paragraph: "Here were the steps:"
+    - list:
+      - listitem: Jack up the car and remove the rear wheels.
+      - listitem: Remove the exhaust system. (I had to cut rusted bolts.)
+      - listitem: Disconnect the rear differential from the drive shaft.
+      - listitem: Disconnect ABS and brake pad sensor wires from the wheels and the body.
+      - listitem: Disconnect the parking brake lines at the junction box under the rear seat.
+      - listitem: Disconnect the rear shocks.
+      - listitem: Loosen the four subframe mounting bolts, and lower the whole rear wheel assembly carefully.
+      - listitem: Disconnect the suspension control arms and sway bar.
+      - listitem: Disconnect and remove the subframe from the differential.
+      - listitem: Paint the differential, axles, and other appropriate parts with rust encapsulator.
+      - listitem:
+        - text: Reverse the steps to rebuild the rear assembly.
+        - list:
+          - listitem: Don’t tighten the bushings while removed or in the air. Tighten them at ride height.
+      - listitem: Take the car to a shop to do a 4 wheel alignment.
+    - paragraph:
+      - text: Below is a comparison of the old assembly to the new subframe. I shared additional pictures in an
+      - link "Instagram post":
+        - /url: https://www.instagram.com/p/DMBQ6SzRSWF/?img_index=1
+      - text: .
+    - figure
+    - paragraph: "The following YouTube video helped me greatly:"
+    - figure:
+      - iframe
+    - heading "Pursuing other avenues" [level=2]
+    - paragraph: "I filed a safety complaint with the National Highway Traffic Safety Administration (NHTSA) regarding the rear subframe rust. It is complaint #11669316."
+    - paragraph: I also contacted the attorneys representing the plaintiffs in the class-action lawsuit against Mercedes-Benz USA. One of them actually called me to discuss the case. He told me that he knew of many instances similar to mine. Unfortunately, my vehicle could not be included in the case because it was outside the model year range. He also told me that it would be difficult (but not impossible) to win a case against Mercedes-Benz USA due to the age of my vehicle, despite an impeccable service record and the fact that the car was garage-kept for the majority of its life.
+    - paragraph: I considered filing a complaint with the Better Business Bureau, but I have not yet done so, and I’m doubtful if I will.
+    - heading "My reasons for sharing" [level=2]
+    - paragraph: I wrote this article to help others who, like me, discover that the rear subframe in their Mercedes has rusted to the point of failure. I hope it can clarify that this is a common issue and offer advice for what to do about it. I’m not angry about the situation, but I am disappointed in Mercedes-Benz for not covering the W203 models in its extended warranty or as a goodwill repair. In the end, I’m just glad to have my C280 back on the road.
+    - text: Posted in
+    - link "fun":
+      - /url: https://automationpanda.com/category/fun/
+    - text: "on"
+    - link "July 24, 2025":
+      - /url: https://automationpanda.com/2025/07/24/mercedes-benz-w203-rear-subframe-rust/
+      - time: July 24, 2025
+    - text: by
+    - link "Andy Knight":
+      - /url: https://automationpanda.com/author/andylpk247/
+    - text: .
+    - link "Leave a comment":
+      - /url: https://automationpanda.com/2025/07/24/mercedes-benz-w203-rear-subframe-rust/#respond
+  - article:
+    - link "Boa Constrictor Update (May 2025)":
+      - /url: https://automationpanda.com/2025/05/04/boa-constrictor-update-may-2025/
+      - heading "Boa Constrictor Update (May 2025)" [level=1]
+    - paragraph:
+      - link "Boa Constrictor":
+        - /url: https://q2ebanking.github.io/boa-constrictor/
+      - text: ", the .NET Screenplay Pattern, started in 2018 and is still actively used in 2025. In total, its NuGet packages have over half a million downloads! However, the project’s activity has slowed down significantly in recent times. It’s been two and a half years since I gave my"
+      - link "last major update":
+        - /url: https://automationpanda.com/2022/11/30/plans-for-boa-constrictor-3/
+      - text: about Boa Constrictor. In this article, I want to cover major developments, explain why things have been slow, and suggest a path for the future.
+    - heading "Major developments" [level=2]
+    - paragraph:
+      - text: We accomplished many of the goals for
+      - link "Boa Constrictor 3":
+        - /url: https://automationpanda.com/2022/11/30/plans-for-boa-constrictor-3/
+      - text: . In fact, all the Boa Constrictor packages are currently set at version
+      - emphasis: "4"
+      - text: "! Here’s a quick summary of what’s available:"
+    - list:
+      - listitem:
+        - text: Each set of interactions has its own dedicated NuGet package. For example,
+        - link "Boa.Constrictor.Selenium":
+          - /url: https://www.nuget.org/packages/Boa.Constrictor.Selenium/
+        - text: contains all the Selenium WebDriver interactions for Web UIs, and
+        - link "Boa.Constrictor.RestSharp":
+          - /url: https://www.nuget.org/packages/Boa.Constrictor.RestSharp/
+        - text: contains all the RestSharp interactions for APIs. That way, testers can configure their test projects to download only the packages that are needed.
+      - listitem:
+        - text: We released a new
+        - link "XUnit package":
+          - /url: https://www.nuget.org/packages/Boa.Constrictor.Xunit/
+        - text: that provides special loggers for XUnit tests.
+      - listitem:
+        - text: We recently released a new
+        - link "Playwright package":
+          - /url: https://www.nuget.org/packages/Boa.Constrictor.Playwright/
+        - text: that provides Abilities and Interactions for
+        - link "Playwright":
+          - /url: https://playwright.dev/dotnet/
+        - text: . This package should be treated as a beta version initially.
+      - listitem: We updated all unit test projects to run on .NET 8.
+      - listitem: We made minor fixes and updated various dependency versions.
+    - paragraph: Many thanks to all our contributors for all their hard work. Special thanks goes to “thePantz” for implementing the XUnit and Playwright packages.
+    - paragraph: Unfortunately, there are some things we did not accomplish. We did not add shadow DOM support for the Selenium package as hoped. We also did not add support for Applitools, and we no longer plan to add it. There is also a lot of information that is now missing from the doc site.
+    - heading "Why have things been slow?" [level=2]
+    - paragraph: "The answer is simple: the maintainers are no longer actively using Boa Constrictor. I haven’t used Boa Constrictor in my day-to-day work since I left Q2 in November 2021, which was 3.5 years ago. The other maintainers have also either moved onto new jobs or new responsibilities. Things moved quickly from about 2020-2021 because the maintainers and I used Boa Constrictor on a daily basis. Now, it’s difficult for us to find time to work on the project because we just don’t use it ourselves anymore. Frankly, I have barely touched .NET since leaving Q2."
+    - heading "A path for the future" [level=2]
+    - paragraph: The Boa Constrictor project is neither “dead” nor “abandoned,” but there need to be some changes for it to continue in the future.
+    - paragraph:
+      - text: First, we have invited
+      - strong: new maintainers
+      - text: to the project who have demonstrated a sense of ownership and contributed meaningful changes to the codebase. These new maintainers use Boa Constrictor actively and have the right stuff to keep the project going. Note that “maintainers” are folks who have the power to approve and complete pull requests. Anyone can submit code contributions to the project – you do not need to be a maintainer to participate.
+    - paragraph:
+      - text: Second,
+      - strong: I will focus more on project management and less on coding
+      - text: . I haven’t made any serious or significant code contributions to Boa Constrictor in about two years, and since I’m not actively using the project itself (let alone working in the .NET stack), it is unlikely that I will be contributing any code in the foreseeable future. For transparency, I should recognize the reality and publicly state it. I still want Boa Constrictor to be useful to others for .NET test automation. I think the best way for me to serve the project and the community now is to empower others to contribute.
+    - paragraph:
+      - text: Third, the community should
+      - strong: be empowered to make their own Boa Constrictor packages
+      - text: . Boa Constrictor’s design adheres to
+      - link "SOLID principles":
+        - /url: https://en.wikipedia.org/wiki/SOLID
+      - text: ", which enables developers to add new Abilities, Tasks, and Questions without needing to modify the core pattern or any of the other Interactions. New packages do not necessarily need to be added to the"
+      - link "main Boa Constrictor repository":
+        - /url: https://github.com/q2ebanking/boa-constrictor
+      - text: ", either. Developers could build and maintain new Screenplay Interactions privately for themselves and their teams. They could also release them to NuGet as their own open source packages separate from the main project. If they feel like their package adds major value, they could contribute it to the main repository through a pull request. All of these are valid options, and I would support any of them. Just note that contributing to the main repository will likely be the slowest path because the maintainers would need to review the code, which could take a long time. So, if you want a particular Boa Constrictor package, be empowered to build it yourself. Don’t wait for the maintainers to build it for you."
+    - heading "The Screenplay Pattern’s place in test automation" [level=2]
+    - paragraph:
+      - text: When I first started implementing the Screenplay Pattern in C#, I was looking for a better alternative to page objects with Selenium WebDriver. Previous test projects had burned me with unintelligible page object classes that stretched for thousands of lines each with duplicative methods and no proper waiting. I saw the Screenplay Pattern as a way to define better web interactions that could handle waiting automatically and be composed together. Then, I realized that it could be used for
+      - emphasis: any
+      - text: kind of testing, not just Web UI. The pattern provided a natural way to join multiple kinds of interactions together into seamless workflows. It made test automation for large, complex system manageable and well-organized, rather than the mess it typically becomes.
+    - paragraph: One of my biggest goals in releasing Boa Constrictor as an open source project was to reinvigorate interest in the Screenplay Pattern in our industry. I believed it was the way to make better interactions for better automation, and I wanted to make it simpler for folks to understand. Based on the number of package downloads, the event talks, and the Discord server, I think we accomplished that goal.
+    - text: Posted in
+    - link "automation":
+      - /url: https://automationpanda.com/category/automation/
+    - text: and tagged
+    - link "Boa Constrictor":
+      - /url: https://automationpanda.com/tag/boa-constrictor/
+    - text: ","
+    - link "Screenplay":
+      - /url: https://automationpanda.com/tag/screenplay/
+    - text: "on"
+    - link "May 4, 2025":
+      - /url: https://automationpanda.com/2025/05/04/boa-constrictor-update-may-2025/
+      - time: May 4, 2025
+    - text: by
+    - link "Andy Knight":
+      - /url: https://automationpanda.com/author/andylpk247/
+    - text: .
+    - link "Leave a comment":
+      - /url: https://automationpanda.com/2025/05/04/boa-constrictor-update-may-2025/#respond
+  - article:
+    - link "Streamer Panda 5 Dev Hacks For Your Software Work Life":
+      - /url: https://automationpanda.com/2025/04/12/5-dev-hacks-for-your-software-work-life/
+      - img "Streamer Panda"
+      - heading "5 Dev Hacks For Your Software Work Life" [level=1]
+    - paragraph: Those of us who work in software all spend countless hours grinding away on our laptops to push bits and bytes around. We get set in our ways. We use the tools we are given. We get the job done. Many of us could benefit from a few “dev hacks” – kind of like “life hacks” that you see in short-form media, but for developers (or engineers or whatever kind of software title you bear). Here’s a list of dev tips that have helped me, and that I hope can help you.
+    - heading "#1. Buy a laptop case for your stickers" [level=2]
+    - paragraph: Stickers are like tattoos for inanimate objects, and the greatest canvas for dev stickers is the dev laptop. The only problem is that when the laptop goes, so too go the stickers. If it’s a corporate laptop, then IT department will curse you for making them scrape the stickers off.
+    - paragraph: What’s the solution? Buy a laptop case, and put your stickers on the case instead of directly onto the machine. That way, you can easily remove the stickers whenever you want! You could even turn old cases into wall art. Laptop cases are typically inexpensive, so there’s no reason why not to buy one.
+    - paragraph: "Here are my laptop stickers on a hard plastic case:"
+    - figure:
+      - figure
+      - figure
+    - heading "#2. Use Excalidraw for nice diagrams" [level=2]
+    - paragraph:
+      - link "Excalidraw":
+        - /url: https://excalidraw.com/
+      - text: "is an online diagraming tool that is easy to use and makes beautiful diagrams. It is free to use, and you can pay-to-win with advanced features. I use it all the time. It’s incredible. Check it out:"
+    - figure:
+      - img "Screenshot 2025-04-12 at 10.32.58 AM.png"
+    - heading "#3. Invest in a decent audio/video setup" [level=2]
+    - paragraph:
+      - text: Ever since the COVID shutdowns, everybody has virtual meetings. You need to dial in, appear on camera, and speak on a microphone. You might as well
+      - emphasis: look
+      - text: good and
+      - emphasis: sound
+      - text: good while doing it. It’s more professional, and others will subconsciously think more highly of you. So, what should you get?
+    - figure:
+      - table:
+        - rowgroup:
+          - row "What you need What I use":
+            - cell "What you need":
+              - strong: What you need
+            - cell "What I use":
+              - strong: What I use
+          - row "A high-quality USB microphone with a boom arm Blue Yeti":
+            - cell "A high-quality USB microphone with a boom arm"
+            - cell "Blue Yeti"
+          - row "A 4K webcam MacBook Pro webcam / Sony ZV-1":
+            - cell "A 4K webcam"
+            - cell "MacBook Pro webcam / Sony ZV-1"
+          - row "Dual desk lights, angled downward 2 x Elgato Key Light":
+            - cell "Dual desk lights, angled downward"
+            - cell "2 x Elgato Key Light"
+          - row "Noise-cancelling headphones Sony WH-1000XM5":
+            - cell "Noise-cancelling headphones"
+            - cell "Sony WH-1000XM5"
+    - paragraph: "Here’s my setup:"
+    - figure
+    - paragraph:
+      - text: Also, use those headphones to listen to some
+      - link "Lo-Fi music":
+        - /url: https://www.youtube.com/c/LofiGirl
+      - text: while working!
+    - heading "#4. Keep your snacks and drinks close" [level=2]
+    - paragraph: When you’re in the flow state, you do not want to be interrupted. Don’t let your hunger or thirst be an interruption. Keep a stockpile of your favorite snacks and drinks within arm’s reach. You could hold a stash of Reese’s peanut butter cups in a drawer. You could put a coffee machine on your desk. I keep a mini-fridge stocked full of Cheerwine, Ito En green tea, and Liquid Death cans in my office.
+    - figure
+    - heading "#5. Become part of tech community" [level=2]
+    - paragraph:
+      - text: Joining a tech community is one of the best ways to level up your skills. You will meet awesome people and become inspired by the ideas they share. I know I wouldn’t be the Panda I am today if I didn’t get involved in the Python community and the Testing community. There’s a big difference between being a
+      - emphasis: user
+      - text: of a technology and being part of the
+      - emphasis: community
+      - text: for the technology. Go find local meetups for tech that interests you. Attend a conference. Contribute to open source projects. Put yourself out there!
+    - figure
+    - paragraph
+    - text: Posted in
+    - link "career":
+      - /url: https://automationpanda.com/category/career/
+    - text: and tagged
+    - link "career":
+      - /url: https://automationpanda.com/tag/career/
+    - text: ","
+    - link "development":
+      - /url: https://automationpanda.com/tag/development/
+    - text: "on"
+    - link "April 12, 2025":
+      - /url: https://automationpanda.com/2025/04/12/5-dev-hacks-for-your-software-work-life/
+      - time: April 12, 2025
+    - text: by
+    - link "Andy Knight":
+      - /url: https://automationpanda.com/author/andylpk247/
+    - text: .
+    - link "2 Comments":
+      - /url: https://automationpanda.com/2025/04/12/5-dev-hacks-for-your-software-work-life/#comments
+  - article:
+    - link "A Cool Panda Is BDD Dying?":
+      - /url: https://automationpanda.com/2025/03/06/is-bdd-dying/
+      - img "A Cool Panda"
+      - heading "Is BDD Dying?" [level=1]
+    - paragraph:
+      - text: "These days, folks keep asking me an uncomfortable question:"
+      - strong: “Is BDD dying?”
+      - text: Behavior-Driven Development has been around for about twenty years, but recently, it feels like the movement has stalled. Is BDD dead? Are we really at this point?
+    - paragraph:
+      - strong: NO!
+      - text: Heck no. Not if I have anything to do with it. But I’ll be honest, we have some work to do to set things right. BDD needs to evolve. Let’s cover the story of what happened to BDD, what are the good things we should preserve from it, and how we build a better future on behavior-driven principles.
+    - heading "The Core Principles" [level=2]
+    - paragraph:
+      - text: Let’s start by defining
+      - emphasis: Behavior-Driven Development
+      - text: . I’ve always defined BDD as a set of helpful practices to help you put your primary focus on the behaviors of the software that you are developing. Not on the code, not on the tools, but on the actual functionality of the product. Why? That’s what your users do! If we focus on behaviors first, then everything else falls into place.
+    - paragraph: Ultimately, behaviors matter more than code. Users don’t care if you wrote your app in JavaScript or Python. They don’t care if it’s running on Azure or AWS. They need your app to solve their problems. To get things done. To do their jobs. You can have the best code in the world with 100% unit test coverage and a perfect Agile process, but it doesn’t matter if the behaviors of the software product itself don’t deliver any meaningful business value.
+    - figure:
+      - img "The Panda is inspired to think about behaviors."
+    - paragraph
+    - paragraph: "If we want to prioritize software behaviors, then we should ask ourselves a few important questions to shift our thinking:"
+    - list:
+      - listitem:
+        - text: What if we
+        - strong: tested behaviors together with the code
+        - text: "? Both are important. It helps to have developers and testers on the same page."
+      - listitem:
+        - text: What if we
+        - strong: described behaviors in plain language
+        - text: rather than in cryptic programming languages? Software is meant to be used by people. If we can’t explain how to use it in plain language, how will anybody ever be able to understand it enough to use it?
+      - listitem:
+        - text: What if we defined all these behaviors
+        - strong: before ever touching any code
+        - text: "? We could resolve many design issues before committing the time to code it. We would also have an agreement on what"
+        - emphasis: should
+        - text: be built that we could use to hold the team accountable.
+      - listitem:
+        - text: What if all the different roles on the team –
+        - strong: business, development, and testing – all collaborated
+        - text: on these behavior specs? Multiple perspectives bring valuable insights into product development that ultimately contribute to higher quality and greater value.
+      - listitem:
+        - text: What if those behavior specs that the team writes together could be
+        - strong: automated directly
+        - text: with special tooling? All those specs essentially become test cases. We could set up continuous feedback loops to tell us if we are building the right things and if they are working. The specs become Living Documentation.
+    - paragraph:
+      - link "And that’s how BDD was born!":
+        - /url: https://cucumber.io/docs/bdd/history
+      - text: BDD is an orientation towards business value. It became a set of practices to help people focus first on behaviors and second on implementation details. People may love or hate the outcomes of the movement, but I don’t think anybody can rightfully disagree with the premise.
+    - heading "A Concise History" [level=2]
+    - paragraph:
+      - text: The first major BDD tools were test frameworks. They appeared in every major language by the early 2010s. Many of you have probably used one of these frameworks. The most popular one was
+      - link "Cucumber":
+        - /url: https://cucumber.io/
+      - text: . My favorite was SpecFlow – a masterpiece of “automationeering.” Almost all other BDD test frameworks are derivatives of Cucumber.
+    - figure:
+      - img "A panda wearing ancient Chinese robes and holding a cucumber."
+    - paragraph
+    - paragraph: The early 2010s were truly the Golden Age of BDD, a time of flourishing and growth. Teams around the world started embracing it. Engineers integrated BDD frameworks with tools like Selenium WebDriver and Jenkins. Design patterns like the Screenplay Pattern arose. There was this incredible outpouring of new, exciting stuff!
+    - paragraph:
+      - text: BDD’s secret sauce was
+      - link "Gherkin":
+        - /url: https://cucumber.io/docs/gherkin/reference
+      - text: . I’m sure almost everyone has seen Gherkin’s Given-When-Then steps. Its beauty was its simplicity. Folks could read Gherkin scenarios and immediately understand the intended behavior without worrying about all the implementation details.
+    - paragraph: Since all the BDD frameworks required testers to write their tests in Gherkin, the world came to see Gherkin as a domain-specific language for test automation. The frameworks naturally separated the “what” of the test from the “how.” Testers also realized how effective it was to write steps once and reuse them in any test.
+    - figure:
+      - img "Angry pandas fighting each other with cucumbers."
+    - paragraph
+    - paragraph: Alas, BDD’s golden age did not last forever. What ended it? War – primarily fought over Gherkin. Many folks like myself recognized how a programming language for test automation could make tests much easier and faster to automate. Others, however, hated writing an extra layer of steps above their test automation code. They felt like it was completely unnecessary, making tests slower to write and code less “clean.”
+    - paragraph: Meanwhile, many of the original leaders of the BDD movement felt horrified that teams would use frameworks like Cucumber without cross-role collaboration over behaviors first. They also saw how BDD became pigeonholed as a testing activity.
+    - paragraph: Many of these leaders reacted by focusing more on the collaboration side of BDD than the automation side. Good things came of this, such as the practice of Example Mapping. However, I believe the pendulum swung too hard the other way, almost to the point where many leaders practically shunned automation, discrediting the value in a language for testing apart from collaborative practices. Unfortunately, this meant that the “thought leaders” and the “trench workers” were heading in opposite directions.
+    - figure:
+      - img "A very sad, upset panda wearing ancient Chinese robes."
+    - paragraph
+    - paragraph: Regardless of disagreements, BDD became very popular throughout the software industry. By the end of the 2010s, testing tool vendors took notice. SmartBear bought Cucumber, and Tricentis bought SpecFlow. Initially, there were high hopes. The new owners started investing in building BDD tools beyond the classic test frameworks. BDD was having its moment. Personally, I loved SpecFlow’s LivingDoc generator.
+    - heading "What Happened?" [level=2]
+    - paragraph: Things have been rough for BDD the past few years.
+    - paragraph:
+      - text: Test tool vendors failed to commercialize BDD tools and ultimately gave up on them. I don’t know exactly what happened or why. All I know is that SmartBear gave Cucumber to the Open Source Collective, and Tricentis literally just shut down the entire SpecFlow project. Thankfully, Gaspar Nagy forked SpecFlow and rebranded it as
+      - link "Reqnroll":
+        - /url: https://reqnroll.net/
+      - text: . Nevertheless, seeing major test tool vendors move on from BDD tools sent a bleak signal about their future.
+    - paragraph: In that, we as an industry failed to successfully productize tools for collaboration. The world jumped on BDD because Cucumber-esque frameworks were easy to adopt. The world was less willing to adopt BDD’s collaborative techniques because they were merely processes, not products. Products are sticky; processes are not. Cucumber tests will still be running after we all retire.
+    - paragraph:
+      - text: The testing world also moved on. Exciting new tools like
+      - link "Cypress":
+        - /url: https://www.cypress.io/
+      - text: and
+      - link "Playwright":
+        - /url: https://playwright.dev/
+      - text: came out. Then AI became big. Folks just aren’t talking about BDD as much.
+    - paragraph:
+      - text: Speaking of AI, LLMs made Gherkin feel old and clunky. Gherkin enables folks to write their specs in plain language, but the steps they write
+      - emphasis: must
+      - text: be written perfectly and identically every time. In large projects, it becomes difficult to find the “right” step. Tools using LLMs let users write free-form steps and then figure out what the users meant. They are more user-friendly. They “do what I mean” rather than “do what I say.”
+    - paragraph:
+      - text: And finally, the movement itself slowed down. There is still good work happening, but from my perspective, it is not as groundbreaking as the golden age. We haven’t seen many
+      - emphasis: new
+      - text: things. The movement feels like it has stalled, especially post-COVID.
+    - heading "Deep Thoughts" [level=2]
+    - paragraph: I’ve thought about this a lot. A LOT. The principles of BDD are still valuable. In fact, I think they’re more applicable than ever. As a software industry, we continue to flounder through the same problems. I’ve also realized that the tooling doesn’t match the principles. As a movement, we haven’t productized aspects of the process in ways that help people improve their software development practices. We haven’t seen advancements to the same degree that we saw during BDD’s golden age of the Cucumber patch.
+    - figure:
+      - img "A panda deep sitting at a desk and writing in a notebook while deep in thought."
+    - paragraph
+    - paragraph: "I’ve been asking myself two questions:"
+    - list:
+      - listitem: What “Behavior” could be?
+      - listitem: How could we provide better tooling for it?
+    - paragraph:
+      - text: I think Artificial Intelligence technologies could help provide much better tooling. If used appropriately, it could remove many points of friction in the development process. AI would not replace product owners, developers, or testers but rather empower them… and perhaps even
+      - emphasis: coach
+      - text: them into better practices. I can’t help but think about what BDD would have looked like if it had technology like LLMs from the start.
+    - paragraph: I’ve also come to realize that the “intelligence” itself is not artificial. It’s just regurgitated from existing sources. We can bake what we already know into it. The challenge then is not merely prompting it with the right queries. The challenge is delivering the insights it offers in a way that seamlessly becomes part of the greater development experience. So, rather than “artificial” intelligence, what we truly need is…
+    - figure
+    - paragraph:
+      - strong:
+        - emphasis: Automated
+        - text: Intelligence
+      - text: . We need insights to automatically come to us as we are developing software. We need coaching to help us stay oriented on behaviors. We need agents to take care of grindwork like organizing the artifacts of our process, running tests, and analyzing results. Intelligence doesn’t always need to come from heavyweight technology like LLMs, either. Sometimes, it can be as simple as an extra comment inserted into a spec or a rote question asked by a chatbot.
+    - paragraph:
+      - text: I think the notion of “automated” intelligence fits perfectly into the BDD process. I first learned about the process from Seb Rose and Gaspar Nagy in
+      - emphasis:
+        - link "The BDD Books":
+          - /url: https://bddbooks.com/
+      - text: ". There are three phases: Discovery → Formulation → Automation. This process frames software development into one seamless, cohesive process that focuses on behaviors through and through."
+    - figure:
+      - 'img "Behaviors: Discovery -> Formulation -> Automation in one Seamless Process"'
+    - paragraph
+    - paragraph: Let’s walk through these phases together.
+    - heading "A Renewed Process" [level=2]
+    - heading "Discovery" [level=3]
+    - paragraph:
+      - emphasis: Discovery
+      - text: is the first phase. It is an activity of
+      - emphasis: learning
+      - text: . In Discovery, teams are figuring out what the business-critical behaviors should be.
+    - paragraph:
+      - text: To be truly successful, teams need
+      - emphasis: Cross-Role Collaboration
+      - text: to gain insights from all perspectives. This has commonly been referred to as “The Three Amigos” of business, development, and testing, but I prefer to think of it more broadly as cross-role collaboration to account for multiple people in those roles as well as people in other roles such as UI/UX design.
+    - paragraph:
+      - text: To be productive, teams engage in
+      - emphasis: Structured Activities
+      - text: to make sure their meetings produce meaningful artifacts that move development forward. Structured activities include story mapping, example mapping, and question storming. Nobody likes to be part of a soul-crushing meeting with no agenda and no tangible outcome.
+    - paragraph: Furthermore, the artifacts like stories, rules, and examples help teams do real planning instead of guessing. Estimates for size are much more accurate when they are based on actual rules and examples.
+    - paragraph: I feel like Discovery has an untapped market. Any time I have led these kinds of sessions, every participant finds them to be shockingly beneficial. Yet every time I teach others how to run these sessions on their own, they always get stuck. Now, I am usually not an expert in the domain of the stories we end up exploring, but I do have coaching skills to ask the right questions. The process works magic; I just need to do a little smoke in mirrors as a faux magician.
+    - paragraph: That’s what I think tools for activities like Example Mapping really need. You can build the most beautiful diagramming tools, but if folks don’t have guidance on how to use them, then they’re worthless. Now, with some social engineering and a little bit of AI, we could build a virtual coach into the tool to help teams complete the structured activities. The coach could ask the team probing questions to get them thinking. It could be a “scribe” for the team, rendering cards on the board and moving them around as a team’s exploration progresses. It could challenge the team when they are moving too slowly or becoming distracted by a tangent. Overall, the coach should help the team discover the product’s most important behaviors as efficiently and painlessly as possible.
+    - figure:
+      - img "Your Discovery Coach, helping with Example Mapping"
+    - heading "Formulation" [level=3]
+    - paragraph:
+      - emphasis: Formulation
+      - text: is the second phase of the behavior process. It is an activity of
+      - emphasis: defining
+      - text: . In Formulation, teams write carefully-phrased specifications for the behaviors they explored during the Discovery phase.
+    - paragraph:
+      - emphasis: Plain-language definitions
+      - text: with
+      - emphasis: concrete examples
+      - text: are vital for good formulation. If a team cannot explain how a behavior works in plain language, then how could they ever expect a user to understand it? It’s much easier to explain behaviors with real-world examples.
+    - paragraph:
+      - text: Scenarios also need structure. Gherkin is the go-to language for BDD because its Given-When-Then steps follow the
+      - emphasis: Arrange-Act-Assert
+      - text: pattern. Given the system is ready, When an actor performs an interaction, Then the system produces a desired outcome. This pattern frames one behavior individually and independently. Each scenario covers one behavior, which makes it easier to write, easier to understand, and easier to automate.
+    - paragraph:
+      - text: Gherkin syntax itself is fine for Formulation, but behavior tooling could be supercharged with a
+      - emphasis: Formulation Copilot
+      - text: . In the same way that a Discovery Coach could help teams push through structured activities, a Formulation Copilot could provide advice and insights to team members as they are writing their behavior specifications. It should also be able to start by turning the artifacts generated by Discovery such as Example Mapping cards into “starter specs.”
+    - figure:
+      - img "Your Formulation Copilot, guiding your Gherkin."
+    - heading "Automation" [level=3]
+    - paragraph:
+      - emphasis: Automation
+      - text: is the third phase of the behavior process. It is an activity of
+      - emphasis: verifying
+      - text: . In Automation, teams automate their specs using test frameworks.
+    - paragraph:
+      - text: They should run their tests in
+      - emphasis: Fast Feedback Loops
+      - text: like Continuous Integration pipelines to get value from their tests for every single code change. Remember, Continuous Integration is the production environment for test automation. If tests are not running in CI, then they are practically useless. Fast feedback enables teams to learn about the quality of the software and make informed business decisions about it.
+    - paragraph:
+      - text: When tests run continuously, their specs and their results become
+      - emphasis: Living Documentation
+      - text: for the product. The results reveal the actual quality of the system as an active health monitor. The specs pinpoint where quality issues are happening.
+    - paragraph:
+      - text: Carrying out a cohesive process from inspiration to implementation also makes behaviors
+      - emphasis: traceable
+      - text: . The specs act as a receipt or a proof-of-purchase for what the team “bought” with their planning. They hold the team accountable to delivering the behaviors that were intended.
+    - paragraph:
+      - text: There is so much that an intelligent
+      - emphasis: Automation Watchdog
+      - text: could do for the Automation phase. If AI delivers on all its promises, a watchdog could just automate all the plain-language specs written during the previous phase. For example with web testing, it could either generate code in, say, Playwright, or it could just go into the web browser and enact the interactions based on its natural language understanding of the steps. Perhaps that’s too ambitious. More realistically, the watchdog could yield better analysis of test results and manage some of the triaging grindwork.
+    - paragraph: Furthermore, an Automation Watchdog could help us shift test automation away from “failure is bad.” For the longest time, we as testers have automated tests that perform interactions and assert verification. Interactions plus verification. That’s it; that’s testing. So, we hard-code the interactions, and we hard-code the verifications. Unfortunately, one of the most common problems with test automation is that any change in the behaviors under test will inevitably require tests to change as well, or else the tests will break and fail and send red X’s everywhere. Psychologically, it spreads bad vibes to say a test is “failing” or “broken” when the automation technically was successful in detecting a change. Perhaps an Automation Watchdog could become the ultimate change-detector and steer teams towards healthier perspectives about failures whenever they inevitably occur.
+    - figure:
+      - img "Your Automation Watchdog, always running tests and providing feedback."
+    - heading "All Together" [level=3]
+    - paragraph:
+      - text: "Discovery → Formulation → Automation. That is the full BDD process. I just outlined many ways we could reinvigorate these practices with better tooling. I want to top it off with one more idea: What if all this could be done"
+      - emphasis: within one app
+      - text: as one seamlessly integrated experience? One of the biggest pain points I’ve felt with BDD is the fact that feature files holding Gherkin scenarios can never truly be read and written by everyone on a team. Teams either stuff them into Jira for the product folks or commit them to Git repositories for developers and testers. There’s no possibility for a single source of truth because the tooling just is not there. It’s maddening. If we truly believe in these behavior-driven principles and practices, then as an industry and a community, we need to commit to them with better tooling.
+    - paragraph: I believe in these principles. I believe in these practices. I am thoroughly behavior-driven, and I do not believe I could approach software development any other way. It pains me to see how the BDD movement has stumbled when its tenets still have so much value to offer.
+    - heading "Time to Rebrand" [level=2]
+    - paragraph:
+      - text: "Before I conclude, I want to propose one more big idea:"
+      - strong: I think it is time we rebrand BDD
+      - text: . I think it needs a new name. The current name has way too much baggage. Too many people hate it – or rather, they hate the terrible experiences they had under its impact. If we can be honest, “Behavior-Driven Development” just isn’t a good name anymore. Heck, anything that is “Something-Something-Driven Development” is a pretty lousy name.
+    - paragraph:
+      - text: I’ve thought to myself, what if we remove the word “driven”?
+      - link "Driving is for cars.":
+        - /url: https://www.instagram.com/stickshiftpandy/
+      - text: We could shorten the name to “Behavior Development”. Still, that sounds clunky, and it doesn’t convey how folks need to focus more on the principles than the practices.
+    - paragraph:
+      - text: What I genuinely want folks to have is a
+      - emphasis: Behavior Mindset
+      - text: when they approach software development. If folks actually put behaviors first and foremost in their mind, then everything else will fall into place. The specs, the code, and the practices all become artifacts of the process. We already have software development methodologies. Behavior orientation is really more of a mindset that complements existing paradigms.
+    - figure:
+      - img "Behavior Mindset!"
+    - paragraph: So, enough with the three-letter acronyms. Enough with the baggage of the past. Let’s build software right. Let’s focus on the business value that matters.
+    - paragraph:
+      - strong:
+        - text: We do Agile. We do DevOps. I think it’s time we also do
+        - emphasis: Behavior
+        - text: .
+    - paragraph: Let’s build this future together!
+    - text: Posted in
+    - link "BDD":
+      - /url: https://automationpanda.com/category/bdd/
+    - text: and tagged
+    - link "BDD":
+      - /url: https://automationpanda.com/tag/bdd/
+    - text: "on"
+    - link "March 6, 2025":
+      - /url: https://automationpanda.com/2025/03/06/is-bdd-dying/
+      - time: March 6, 2025
+    - text: by
+    - link "Andy Knight":
+      - /url: https://automationpanda.com/author/andylpk247/
+    - text: .
+    - link "4 Comments":
+      - /url: https://automationpanda.com/2025/03/06/is-bdd-dying/#comments
+  - article:
+    - link "1974 VW Karmann Ghia Convertible For Sale":
+      - /url: https://automationpanda.com/2025/02/21/1974-vw-karmann-ghia-convertible-for-sale/
+      - heading "1974 VW Karmann Ghia Convertible For Sale" [level=1]
+    - paragraph:
+      - strong:
+        - mark: THIS CAR HAS BEEN SOLD!
+    - figure:
+      - table:
+        - rowgroup:
+          - row "Year, Make, & Model 1974 VW Karmann Ghia Convertible":
+            - cell "Year, Make, & Model":
+              - strong: Year, Make, & Model
+            - cell "1974 VW Karmann Ghia Convertible"
+          - row "Price Asking $7474 but make me an offer SOLD!":
+            - cell "Price":
+              - strong: Price
+            - cell "Asking $7474 but make me an offer SOLD!":
+              - text: Asking
+              - strong: $7474
+              - text: but make me an offer
+              - strong: SOLD!
+          - row "Location Cary, NC":
+            - cell "Location":
+              - strong: Location
+            - cell "Cary, NC"
+          - row "Runs & Drives Yes":
+            - cell "Runs & Drives":
+              - strong: Runs & Drives
+            - cell "Yes"
+          - row "Mileage At least 62K (odometer was broken)":
+            - cell "Mileage":
+              - strong: Mileage
+            - cell "At least 62K (odometer was broken)"
+          - row "Title Yes (good NC title in hand)":
+            - cell "Title":
+              - strong: Title
+            - cell "Yes (good NC title in hand)"
+          - row "Contact Please use the Contact form or call/text the phone number at the bottom of this page":
+            - cell "Contact":
+              - strong: Contact
+            - cell "Please use the Contact form or call/text the phone number at the bottom of this page":
+              - text: Please use the
+              - link "Contact":
+                - /url: https://automationpanda.com/contact/
+              - text: form or call/text the phone number at the bottom of this page
+    - heading "Pictures" [level=2]
+    - list:
+      - listitem:
+        - figure:
+          - img "Karmann Ghia with Bra"
+      - listitem:
+        - figure
+      - listitem:
+        - figure
+      - listitem:
+        - figure
+      - listitem:
+        - figure
+      - listitem:
+        - figure
+      - listitem:
+        - figure
+      - listitem:
+        - figure
+      - listitem:
+        - figure
+      - listitem:
+        - figure
+      - listitem:
+        - figure
+      - listitem:
+        - figure
+      - listitem:
+        - figure
+      - listitem:
+        - figure
+      - listitem:
+        - figure
+      - listitem:
+        - figure
+      - listitem:
+        - figure
+      - listitem:
+        - figure
+      - listitem:
+        - figure
+      - listitem:
+        - figure
+    - button
+    - button
+    - heading "What’s Good" [level=2]
+    - paragraph: "This car is great:"
+    - list:
+      - listitem: It runs and drives!
+      - listitem: The convertible top works and has the rear glass windshield.
+      - listitem: The car has its spare tire.
+      - listitem: The car has its emblems.
+      - listitem: It comes with a car cover.
+    - paragraph:
+      - text: Karmann Ghia convertibles are
+      - emphasis: rare
+      - text: . Only 18% of all Karmann Ghias ever produced were convertibles. VW produced only
+      - link "1558":
+        - /url: https://www.thesamba.com/vw/archives/info/productionfigureskg.php
+      - text: Karmann Ghia convertibles for the 1974 model year – lower than all model years except 1955-57. Although it may look rough, this car is a survivor.
+    - heading "What’s New" [level=2]
+    - paragraph:
+      - text: I put a
+      - emphasis: lot
+      - text: of work into restoring this car. Mechanically, the car is sound.
+    - list:
+      - listitem:
+        - text: "Interior:"
+        - list:
+          - listitem: New interior carpet with padding
+          - listitem: New back bench (in lieu of the backseat that VW removed for the 1974 model)
+          - listitem: New seatbelts
+          - listitem: New rear side panels
+          - listitem: New EMPI trigger-style shifter
+          - listitem: Refurbished steering wheel with new leather grip
+      - listitem:
+        - text: "Exterior:"
+        - list:
+          - listitem: New tires
+          - listitem: New side mirrors
+          - listitem: New rear emblems (“Volkswagen”, “Karmann Ghia” script)
+          - listitem: Refurbished hubcaps
+          - listitem: Refurbished rear bumper (original)
+          - listitem: New tail light mounts and rubber
+      - listitem:
+        - text: "Engine:"
+        - list:
+          - listitem: Volkzbitz-restored 34 PICT-3 carburetor
+          - listitem: New timing belt
+          - listitem: New battery
+          - listitem: Oil changes and valve adjustments
+      - listitem:
+        - text: "All new brake system:"
+        - list:
+          - listitem: New master cylinder
+          - listitem: All new brake lines (hard and soft)
+          - listitem: New front discs and calipers
+          - listitem: Rebuilt rear drum brakes
+          - listitem: Fresh brake fluid with cleaned reservoir
+          - listitem: Refurbished parking brake with new boot and levers
+      - listitem:
+        - text: "Clutch system:"
+        - list:
+          - listitem: New clutch plate
+          - listitem: New throw-out bearing
+          - listitem: New shaft and arm
+          - listitem: New Bowden tube and cable
+      - listitem:
+        - text: "Front-end:"
+        - list:
+          - listitem: New tie rods
+          - listitem: New steering knuckles
+          - listitem: New steering shaft
+          - listitem: Adjusted steering box
+          - listitem: De-rusted and refurbished gas tank with a new sending unit
+          - listitem: Cleaned and painted the trunk
+          - listitem: New trunk carpet
+          - listitem: New speedometer cable (which fixed the speedometer and odometer)
+          - listitem: New horns
+    - heading "What Needs Work" [level=2]
+    - paragraph:
+      - text: The biggest need is
+      - strong: body work
+      - text: . This car is a
+      - emphasis: survivor
+      - text: . On the front-end, the nose has been smashed more than once, and the passenger-side fender is dented. The whole front-end is caked in body filler up to 1/4″ thick. The driver-side door post has rusted and weakened to the point where the door falls about an inch when it opens. The rear driver-side bumper mount has rusted off. I de-rusted and paint-sealed vulnerable spots while uncovering them during my restoration work.
+    - paragraph:
+      - text: For a
+      - emphasis: full
+      - text: "restoration:"
+    - list:
+      - listitem: The convertible top should be restored.
+      - listitem: The door panels should be replaced.
+      - listitem: The dashboard should be refreshed.
+      - listitem: The sound system is not connected.
+      - listitem: The fuel gauge sending unit needs to be calibrated.
+      - listitem: The front bumper is missing. (The original rear bumper is restored.)
+      - listitem: The heating system is not connected. (But, c’mon, it’s a convertible!)
+    - heading "What’s Odd" [level=2]
+    - paragraph: The floor pans are not stock. A previous owner welded them in. Thankfully, they are very sturdy. The seats and their tracks are also not stock.
+    - paragraph: The speedometer cable was broken when I bought the vehicle. The speedometer did not show velocity, and the odometer was frozen at 62202. When I replaced the cable, the speedometer and odometer started working again. I do not know the true mileage of the car, but all the mileage after 62202 is what I have driven.
+    - heading "The Backstory" [level=2]
+    - paragraph: The earliest I can trace its story is back to a title in Virginia in the 1990s. Somehow, it ended up in the hands of a VW enthusiast in Tennessee who purportedly planned to chop its top and part out the rest. It was saved in early 2022 by a lady named Ms. Anna. She was friends with the VW enthusiast, and she wanted to buy an old VW Beetle from him as her dream car. When she saw this Karmann Ghia, she changed her mind on the spot and bought it instead. Ms. Anna drove it through the backwoods for a few months as her “fun car” until she decided to sell it due to a change in life circumstances. She did not make any significant changes to the vehicle.
+    - paragraph:
+      - text: I purchased the Karmann Ghia from Ms. Anna in June 2022. The car was in rougher shape than I expected, but it was still a
+      - emphasis: good
+      - text: car. On my first test drive, the transmission shifted as smoothly as butter. The speedometer was broken at the time, but I could shift by listening to the revs of the engine. I drove it through the mountains of Tennessee from Dunlap down to Chattanooga and then hauled it home to North Carolina from there.
+    - heading "Why I’m Selling" [level=2]
+    - paragraph:
+      - text: "I love the Karmann Ghia, but I’ve decided to sell this one for one main reason:"
+      - strong: I want an earlier year model
+      - text: . I like the earlier design elements. My grandfather drove a ’67 convertible, and I also own a ’70 Beetle. I’d like to sell my current Karmann Ghia convertible to buy another one within that year range.
+    - paragraph:
+      - text: I’m ready to sell this car immediately. I don’t have anything to hide. If you’re interested, please message me through the
+      - link "Contact":
+        - /url: https://automationpanda.com/contact/
+      - text: form.
+    - figure
+    - text: Posted in
+    - link "fun":
+      - /url: https://automationpanda.com/category/fun/
+    - text: "on"
+    - link "February 21, 2025":
+      - /url: https://automationpanda.com/2025/02/21/1974-vw-karmann-ghia-convertible-for-sale/
+      - time: February 21, 2025
+    - text: by
+    - link "Andy Knight":
+      - /url: https://automationpanda.com/author/andylpk247/
+    - text: .
+    - link "6 Comments":
+      - /url: https://automationpanda.com/2025/02/21/1974-vw-karmann-ghia-convertible-for-sale/#comments
+  - article:
+    - link "X is unhinged. Find me on Bluesky.":
+      - /url: https://automationpanda.com/2024/11/17/x-is-unhinged-find-me-on-bluesky/
+      - heading "X is unhinged. Find me on Bluesky." [level=1]
+    - paragraph: X (formerly Twitter) is unhinged.
+    - paragraph: I received a DM through X today from someone claiming to be an Amazon seller asking me to review a set of “adult products” in exchange for “prepaid compensation.”
+    - paragraph: I joined Twitter back in 2017 to join the “Tech Twitter” community. It was awesome! I connected with so many colleagues, kept up with all the latest developments, and learned so much.
+    - paragraph: Ever since Elon took over, X has degraded. My feed is polluted with the man himself and all the politics that come with him. Many of my friends and followers have left. I constantly receive spammy messages from crypto bros and catfishers. Today’s DM is a new low. I can’t justify using X for professional purposes anymore.
+    - paragraph: I’m moving to Bluesky. I’ve already been there for a while. Join me and the rest of Old Tech Twitter. 🦋
+    - paragraph:
+      - text: "Here’s my profile:"
+      - link "https://bsky.app/profile/automationpanda.bsky.social":
+        - /url: https://bsky.app/profile/automationpanda.bsky.social
+    - text: Posted in
+    - link "career":
+      - /url: https://automationpanda.com/category/career/
+    - text: and tagged
+    - link "career":
+      - /url: https://automationpanda.com/tag/career/
+    - text: "on"
+    - link "November 17, 2024":
+      - /url: https://automationpanda.com/2024/11/17/x-is-unhinged-find-me-on-bluesky/
+      - time: November 17, 2024
+    - text: by
+    - link "Andy Knight":
+      - /url: https://automationpanda.com/author/andylpk247/
+    - text: .
+    - link "1 Comment":
+      - /url: https://automationpanda.com/2024/11/17/x-is-unhinged-find-me-on-bluesky/#comments
+  - article:
+    - link "Chattanooga Choo Choo I Want To Be An Engineer When I Grow Up!":
+      - /url: https://automationpanda.com/2024/11/06/i-want-to-be-an-engineer-when-i-grow-up/
+      - img "Chattanooga Choo Choo"
+      - heading "I Want To Be An Engineer When I Grow Up!" [level=1]
+    - paragraph: When I was a little boy, I wanted to be an engineer when I grew up.
+    - paragraph:
+      - text: That’s right, I wanted to be a
+      - emphasis: locomotive
+      - text: engineer! Like all little boys, I absolutely loved trains. I watched all the episodes of Thomas the Tank Engine. I wore a striped blue-and-white railroad cap everywhere. And I wanted to grow up to be the guy in charge of the trains.
+    - paragraph:
+      - text: More than once, my parents took me to see the
+      - link "Chattanooga Choo Choo":
+        - /url: https://choochoo.com/
+      - text: in Chattanooga, Tennessee. To me, the vibrantly-painted steam engine was just the coolest thing ever. I’d climb into the engine bay (which was allowed) and imagine how much fun it would be to drive it. I don’t remember much of anything from that young age, but I vividly remember pictures in my mind of the Choo Choo.
+    - paragraph: "I actually did grow up to become an “engineer” – just not the kind of engineer my four-year-old self would have expected. This week, my software engineering journey brought me back to Chattanooga on a customer visit. My hotel was located right next to the old train station housing the famous Choo Choo, so, of course, I paid it a visit. It was just as I had remembered it: charming, nostalgic, and iconic. Oh, how I yearn to build things that become as cherished and enduring as the Chattanooga Choo Choo."
+    - paragraph: "Our dreams may not always manifest as we expect, but I am grateful for all the opportunities I have been given and for all the incredible experiences they have brought. Even though my current job title is “Product Management,” I still identify as an engineer at heart: building solutions to tough problems. Never let go of the things that inspire you."
+    - text: Posted in
+    - link "career":
+      - /url: https://automationpanda.com/category/career/
+    - text: ","
+    - link "fun":
+      - /url: https://automationpanda.com/category/fun/
+    - text: and tagged
+    - link "career":
+      - /url: https://automationpanda.com/tag/career/
+    - text: "on"
+    - link "November 6, 2024":
+      - /url: https://automationpanda.com/2024/11/06/i-want-to-be-an-engineer-when-i-grow-up/
+      - time: November 6, 2024
+    - text: by
+    - link "Andy Knight":
+      - /url: https://automationpanda.com/author/andylpk247/
+    - text: .
+    - link "1 Comment":
+      - /url: https://automationpanda.com/2024/11/06/i-want-to-be-an-engineer-when-i-grow-up/#comments
+  - article:
+    - link "Bulldog-Driven Development":
+      - /url: https://automationpanda.com/2024/11/05/bulldog-driven-development/
+      - heading "Bulldog-Driven Development" [level=1]
+    - paragraph: Today is a special day in the Knight family. On November 5, 2021, my wife and I drove down to Waxhaw, North Carolina to adopt the cutest French Bulldog puppy in the state. We named her “Suki” – a Japanese name meaning “beloved.”
+    - paragraph: Suki was the first dog my wife and I had ever owned. She was only 7.5 weeks old when we picked her up, and she weighed only 3 pounds! I could scoop her up with one hand. When she first arrived home, she was so nervous that she tried to bury her face in her new doggy bed to hide. Now, three years later, Suki is a BEAUTIFUL 20-pound beefcake who has crisscrossed the country with us. We love her dearly. She is a gift from God.
+    - paragraph:
+      - text: I often joke about
+      - strong: "#BDD"
+      - text: being “Bulldog-Driven” rather than “Behavior-Driven.” Remember, though, we are all driven by
+      - emphasis: something
+      - text: . In my software work, I absolutely take a behavior-driven mindset, but I’m also driven by my Family, my Faith, and my Frenchie. Never lose sight of what drives you.
+    - paragraph:
+      - emphasis: "Photo: Suki with her portrait as “AstroSuki” – my speaker gift from QA or the Highway 2024!"
+    - text: Posted in
+    - link "career":
+      - /url: https://automationpanda.com/category/career/
+    - text: and tagged
+    - link "BDD":
+      - /url: https://automationpanda.com/tag/bdd/
+    - text: "on"
+    - link "November 5, 2024":
+      - /url: https://automationpanda.com/2024/11/05/bulldog-driven-development/
+      - time: November 5, 2024
+    - text: by
+    - link "Andy Knight":
+      - /url: https://automationpanda.com/author/andylpk247/
+    - text: .
+    - link "Leave a comment":
+      - /url: https://automationpanda.com/2024/11/05/bulldog-driven-development/#respond
+  - article:
+    - link "Running tests in a Java Maven project":
+      - /url: https://automationpanda.com/2024/06/11/running-tests-in-a-java-maven-project/
+      - heading "Running tests in a Java Maven project" [level=1]
+    - paragraph:
+      - text: Java continues to be one of the most popular languages for test automation, and Maven continues to be its most popular build tool. Adding tests in the right place to a Java project with Maven can be a bit tricky, however. Let’s briefly learn how to do it. These steps work for both
+      - link "JUnit":
+        - /url: https://junit.org/junit5/
+      - text: and
+      - link "TestNG":
+        - /url: https://testng.org/
+      - text: .
+    - heading "Test code location" [level=2]
+    - paragraph:
+      - text: Maven project follow the
+      - link "Standard Directory Layout":
+        - /url: https://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html
+      - text: . The main code should go under
+      - code: src/main
+      - text: ", while all test code should go under"
+      - code: src/test
+      - text: ":"
+    - list:
+      - listitem:
+        - code: src/test/java
+        - text: should hold Java test classes
+      - listitem:
+        - code: src/test/resources
+        - text: should hold resource files that tests use
+    - paragraph: "Your project directory should look something like this:"
+    - text: src/ +-- main/ | +-- java/ | \-- resources/ |-- test/ | +-- java/ | \-- resources/ \-- pom.xml
+    - paragraph: Don’t put test code in the main source folder. You don’t want to include it with the final build artifact. The project might have other files as well, like a README.
+    - heading "Unit tests" [level=2]
+    - paragraph:
+      - text: The
+      - link "Maven Surefire Plugin":
+        - /url: https://maven.apache.org/surefire/maven-surefire-plugin/
+      - text: runs unit tests during Maven’s
+      - code: test
+      - text: "phase. To run unit tests:"
+    - list:
+      - listitem:
+        - text: Add
+        - code: maven-surefire-plugin
+        - text: to the
+        - code: plugins
+        - text: section of your pom.xml
+      - listitem:
+        - text: Name your unit tests
+        - code: "*Tests.java"
+      - listitem:
+        - text: Put them under
+        - code: src/test/java
+      - listitem: Mirror the package structure from the main code always
+      - listitem:
+        - text: Run tests with
+        - code: mvn test
+    - paragraph: "There are a bunch of options for configuring the Maven Surefire Plugin. If you don’t want to configure anything special, you actually don’t need to add the plugin to the POM file. Nevertheless, it’s good practice to add it to the POM file anyway. Here’s what that would look like:"
+    - text: <build> <plugins> <plugin> <groupId>org.apache.maven.plugins</groupId> <artifactId>maven-surefire-plugin</artifactId> <version>3.2.5</version> </plugin> </plugins> </build>
+    - heading "Integration tests" [level=2]
+    - paragraph:
+      - text: The
+      - link "Maven Failsafe Plugin":
+        - /url: https://maven.apache.org/surefire/maven-surefire-plugin/
+      - text: runs integration tests during Maven’s
+      - code: integration-test
+      - text: "phase. Integration tests are distinct from unit tests due to their external dependencies and should be treated differently. To run integration tests:"
+    - list:
+      - listitem:
+        - text: Add
+        - code: maven-failsafe-plugin
+        - text: to the
+        - code: plugins
+        - text: section of your pom.xml
+      - listitem:
+        - text: Name your unit tests
+        - code: "*IT.java"
+      - listitem:
+        - text: Put them under
+        - code: src/test/java
+      - listitem: Mirror the package structure from the main code as appropriate
+      - listitem:
+        - text: Run tests with
+        - code: mvn verify
+    - paragraph:
+      - text: "Maven actually has multiple integration test phases:"
+      - code: pre-integration-test
+      - text: ","
+      - code: integration-test
+      - text: ", and"
+      - code: post-integration-test
+      - text: to handle appropriate setup, testing, and cleanup. However, none of these phases will cause the build to fail. Instead, use the
+      - code: verify
+      - text: goal to make the build fail when ITs fail.
+    - paragraph:
+      - text: Like the Maven Surefire Plugin, the Maven Failsafe Plugin has a bunch of options. However, to run integration tests, you
+      - emphasis: must
+      - text: "configure the Failsafe plugin in the POM file. Here’s what it looks like:"
+    - text: <build> <plugins> <plugin> <groupId>org.apache.maven.plugins</groupId> <artifactId>maven-failsafe-plugin</artifactId> <version>3.2.5</version> <executions> <execution> <goals> <goal>integration-test</goal> <goal>verify</goal> </goals> </execution> </executions> </plugin> </plugins> </build>
+    - heading "Maven phases" [level=2]
+    - paragraph:
+      - text: Phases in the
+      - link "Maven Build Lifecycle":
+        - /url: https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html
+      - text: "are cumulative:"
+    - list:
+      - listitem:
+        - text: Running
+        - code: mvn test
+        - text: includes the
+        - code: compile
+        - text: phase
+      - listitem:
+        - text: Running
+        - code: mvn verify
+        - text: includes the
+        - code: compile
+        - text: and
+        - code: test
+        - text: phases
+    - paragraph:
+      - text: It is also a good practice to run
+      - code: mvn clean
+      - text: before other phases to delete the build output (
+      - code: target/
+      - text: ) directory. That way, old class files and test reports are removed before generating new ones. You may also include
+      - code: clean
+      - text: "with commands to run tests, like this:"
+      - code: mvn clean test
+      - text: or
+      - code: mvn clean verify
+      - text: .
+    - heading "Customizations" [level=2]
+    - paragraph:
+      - text: You can customize how tests run. For example, you can create a separate directory for integration tests (like
+      - code: src/it
+      - text: instead of
+      - code: src/test
+      - text: ). However, I recommend avoiding customizations like this. They require complicated settings in the POM file that are difficult to get right and confusing to maintain. Others who join the project later will expect Maven standards.
+    - paragraph
+    - text: Posted in
+    - link "automation":
+      - /url: https://automationpanda.com/category/automation/
+    - text: ","
+    - link "testing":
+      - /url: https://automationpanda.com/category/testing/
+    - text: and tagged
+    - link "automation":
+      - /url: https://automationpanda.com/tag/automation/
+    - text: ","
+    - link "Java":
+      - /url: https://automationpanda.com/tag/java/
+    - text: ","
+    - link "Maven":
+      - /url: https://automationpanda.com/tag/maven/
+    - text: ","
+    - link "testing":
+      - /url: https://automationpanda.com/tag/testing/
+    - text: "on"
+    - link "June 11, 2024":
+      - /url: https://automationpanda.com/2024/06/11/running-tests-in-a-java-maven-project/
+      - time: June 11, 2024
+    - text: by
+    - link "Andy Knight":
+      - /url: https://automationpanda.com/author/andylpk247/
+    - text: .
+    - link "Leave a comment":
+      - /url: https://automationpanda.com/2024/06/11/running-tests-in-a-java-maven-project/#respond
+  - article:
+    - link "Test coverage and trusting your instincts":
+      - /url: https://automationpanda.com/2024/04/23/test-coverage-and-trusting-your-instincts/
+      - heading "Test coverage and trusting your instincts" [level=1]
+    - paragraph: "Picture this: It’s 2010, and I’m fresh out of college, eager to dive into the software industry. Little did I know, a simple interview question would challenge not only my knowledge about testing but also my instincts."
+    - paragraph: "Job openings were hard to find in the wake of the Great Recession. Thankfully, I landed a few interviews with IBM, where I completed a series of internships over the summers of 2007-2009. I was willing to take any kind of job – as long as it involved coding. One of those interviews was for an entry-level position on a data warehouse team in Boston. I honestly don’t remember much from this interview, but there was one question I will never forget:"
+    - blockquote:
+      - paragraph: How do you know when you’ve done enough testing?
+    - paragraph: "Now, remember, back in 2010, I wasn’t the Automation Panda yet. Nevertheless, since I had experience with testing during my internships, I felt prepared to give a reasonable answer. If I recall correctly, I said something about covering all paths through the code and being mindful to consider edge cases that could be overlooked. (My answer today would likely frame “completeness” around acceptable risk, but that’s not the point of the story.) I’ll never forget what the interviewer said in reply:"
+    - blockquote:
+      - paragraph: Well, that’s not the answer I was looking for.
+    - paragraph: Oh? What’s the “right” answer?
+    - blockquote:
+      - paragraph: If you write roughly the same number of lines of test code as you write for product code, then you have enough coverage.
+    - paragraph:
+      - text: That answer stunned me. Despite my limited real-world experience as a recent college graduate, I knew that answer was blatantly
+      - emphasis: wrong
+      - text: . During my internships, I wrote plenty of code with plenty of tests, and I knew from experience that there was no correlation between lines of test code and actual coverage. Even a short snippet could require multiple tests to thoroughly cover all of its variations.
+    - paragraph: "For example, here’s a small Python class that keeps track of a counter:"
+    - text: "class Counter: def __init__(self): self.count = 0 def add(self, more=1): self.count += more"
+    - paragraph:
+      - text: And here’s a set of
+      - link "pytest":
+        - /url: https://docs.pytest.org/
+      - text: "tests to cover it:"
+    - text: "import pytest @pytest.fixture def counter(): return Counter() def test_counter_init(counter): assert counter.count == 0 def test_counter_add_one(counter): counter.add() assert counter.count == 1 def test_counter_add_three(counter): counter.add(3) assert counter.count == 3 def test_counter_add_twice(counter): counter.add() counter.add() assert counter.count == 2"
+    - paragraph: There are three times as many lines of test code as product code, and I could still come up with a few more test cases.
+    - paragraph: In the moment, I didn’t know how to reply to the interviewer. He sounded very confident in his answer. All I could say was, “I don’t think I agree with that.” I didn’t have any examples or evidence to share; I just had my gut feeling.
+    - paragraph: I sensed my interviewer’s disappointment with my response. Who was I, a lowly intern, to challenge a senior engineer? Needless to say, I did not receive a job offer. I ended up taking a different job with IBM in Raleigh-Durham instead.
+    - paragraph:
+      - text: "Nevertheless, this exchange taught me a very valuable lesson:"
+      - strong:
+        - emphasis: trust your instincts
+      - text: . While I didn’t land the job that day, the encounter left an indelible mark on my approach to problem-solving. It instilled in me the confidence to question assumptions and trust my instincts, qualities that would shape my career trajectory in unforeseen ways. Never dismiss your instincts because you are less senior than others. You just might be right!
+    - text: Posted in
+    - link "career":
+      - /url: https://automationpanda.com/category/career/
+    - text: ","
+    - link "testing":
+      - /url: https://automationpanda.com/category/testing/
+    - text: and tagged
+    - link "career":
+      - /url: https://automationpanda.com/tag/career/
+    - text: ","
+    - link "coverage":
+      - /url: https://automationpanda.com/tag/coverage/
+    - text: ","
+    - link "Python":
+      - /url: https://automationpanda.com/tag/python/
+    - text: ","
+    - link "testing":
+      - /url: https://automationpanda.com/tag/testing/
+    - text: "on"
+    - link "April 23, 2024":
+      - /url: https://automationpanda.com/2024/04/23/test-coverage-and-trusting-your-instincts/
+      - time: April 23, 2024
+    - text: by
+    - link "Andy Knight":
+      - /url: https://automationpanda.com/author/andylpk247/
+    - text: .
+    - link "1 Comment":
+      - /url: https://automationpanda.com/2024/04/23/test-coverage-and-trusting-your-instincts/#comments
+  - navigation:
+    - heading "Post navigation" [level=1]
+    - link "← Older posts":
+      - /url: https://automationpanda.com/page/2/
+- complementary:
+  - complementary:
+    - heading "Follow Blog via Email" [level=3]
+    - paragraph: Enter your email address to follow this blog and receive notifications of new posts by email.
+    - paragraph:
+      - text: "Email Address:"
+      - textbox "Follow Blog via Email Email Address:": Ahamed
+    - paragraph:
+      - button "Follow"
+    - text: Join 3,777 other subscribers
+  - complementary:
+    - heading "Tags" [level=3]
+    - link "Agile (8 items)":
+      - /url: https://automationpanda.com/tag/agile/
+      - text: Agile
+    - link "Angular (3 items)":
+      - /url: https://automationpanda.com/tag/angular/
+      - text: Angular
+    - link "Atom (2 items)":
+      - /url: https://automationpanda.com/tag/atom/
+      - text: Atom
+    - link "automation (94 items)":
+      - /url: https://automationpanda.com/tag/automation/
+      - text: automation
+    - link "BDD (55 items)":
+      - /url: https://automationpanda.com/tag/bdd/
+      - text: BDD
+    - link "behave (7 items)":
+      - /url: https://automationpanda.com/tag/behave/
+      - text: behave
+    - link "best practices (43 items)":
+      - /url: https://automationpanda.com/tag/best-practices/
+      - text: best practices
+    - link "Boa Constrictor (7 items)":
+      - /url: https://automationpanda.com/tag/boa-constrictor/
+      - text: Boa Constrictor
+    - link "books (4 items)":
+      - /url: https://automationpanda.com/tag/books/
+      - text: books
+    - link "C# (8 items)":
+      - /url: https://automationpanda.com/tag/c/
+      - text: C#
+    - link "career (24 items)":
+      - /url: https://automationpanda.com/tag/career/
+      - text: career
+    - link "Chrome (2 items)":
+      - /url: https://automationpanda.com/tag/chrome/
+      - text: Chrome
+    - link "code review (2 items)":
+      - /url: https://automationpanda.com/tag/code-review/
+      - text: code review
+    - link "command line (3 items)":
+      - /url: https://automationpanda.com/tag/command-line/
+      - text: command line
+    - link "communication (8 items)":
+      - /url: https://automationpanda.com/tag/communication/
+      - text: communication
+    - link "compiler (2 items)":
+      - /url: https://automationpanda.com/tag/compiler/
+      - text: compiler
+    - link "conference (14 items)":
+      - /url: https://automationpanda.com/tag/conference/
+      - text: conference
+    - link "continuous delivery (2 items)":
+      - /url: https://automationpanda.com/tag/continuous-delivery/
+      - text: continuous delivery
+    - link "continuous integration (7 items)":
+      - /url: https://automationpanda.com/tag/continuous-integration/
+      - text: continuous integration
+    - link "cooking (2 items)":
+      - /url: https://automationpanda.com/tag/cooking/
+      - text: cooking
+    - link "coverage (3 items)":
+      - /url: https://automationpanda.com/tag/coverage/
+      - text: coverage
+    - link "CSharp (7 items)":
+      - /url: https://automationpanda.com/tag/csharp/
+      - text: CSharp
+    - link "Cucumber (11 items)":
+      - /url: https://automationpanda.com/tag/cucumber/
+      - text: Cucumber
+    - link "Cypress (3 items)":
+      - /url: https://automationpanda.com/tag/cypress/
+      - text: Cypress
+    - link "design patterns (3 items)":
+      - /url: https://automationpanda.com/tag/design-patterns/
+      - text: design patterns
+    - link "development (39 items)":
+      - /url: https://automationpanda.com/tag/development/
+      - text: development
+    - link "Django (8 items)":
+      - /url: https://automationpanda.com/tag/django/
+      - text: Django
+    - link "end-to-end (3 items)":
+      - /url: https://automationpanda.com/tag/end-to-end/
+      - text: end-to-end
+    - link "Example Mapping (3 items)":
+      - /url: https://automationpanda.com/tag/example-mapping/
+      - text: Example Mapping
+    - link "exploratory testing (2 items)":
+      - /url: https://automationpanda.com/tag/exploratory-testing/
+      - text: exploratory testing
+    - link "frameworks (3 items)":
+      - /url: https://automationpanda.com/tag/frameworks/
+      - text: frameworks
+    - link "Gherkin (29 items)":
+      - /url: https://automationpanda.com/tag/gherkin/
+      - text: Gherkin
+    - link "Git (6 items)":
+      - /url: https://automationpanda.com/tag/git/
+      - text: Git
+    - link "integration (2 items)":
+      - /url: https://automationpanda.com/tag/integration/
+      - text: integration
+    - link "Jasmine (3 items)":
+      - /url: https://automationpanda.com/tag/jasmine/
+      - text: Jasmine
+    - link "Java (7 items)":
+      - /url: https://automationpanda.com/tag/java/
+      - text: Java
+    - link "JavaScript (9 items)":
+      - /url: https://automationpanda.com/tag/javascript/
+      - text: JavaScript
+    - link "Jenkins (4 items)":
+      - /url: https://automationpanda.com/tag/jenkins/
+      - text: Jenkins
+    - link "Karma (2 items)":
+      - /url: https://automationpanda.com/tag/karma/
+      - text: Karma
+    - link "languages (6 items)":
+      - /url: https://automationpanda.com/tag/languages/
+      - text: languages
+    - link "mentoring (3 items)":
+      - /url: https://automationpanda.com/tag/mentoring/
+      - text: mentoring
+    - link "metrics (7 items)":
+      - /url: https://automationpanda.com/tag/metrics/
+      - text: metrics
+    - link "Notepad++ (4 items)":
+      - /url: https://automationpanda.com/tag/notepad/
+      - text: Notepad++
+    - link "opportunity (3 items)":
+      - /url: https://automationpanda.com/tag/opportunity/
+      - text: opportunity
+    - link "parallel (2 items)":
+      - /url: https://automationpanda.com/tag/parallel/
+      - text: parallel
+    - link "performance (3 items)":
+      - /url: https://automationpanda.com/tag/performance/
+      - text: performance
+    - link "Perl (3 items)":
+      - /url: https://automationpanda.com/tag/perl/
+      - text: Perl
+    - link "Playwright (4 items)":
+      - /url: https://automationpanda.com/tag/playwright/
+      - text: Playwright
+    - link "process (9 items)":
+      - /url: https://automationpanda.com/tag/process/
+      - text: process
+    - link "Protractor (2 items)":
+      - /url: https://automationpanda.com/tag/protractor/
+      - text: Protractor
+    - link "PyCharm (2 items)":
+      - /url: https://automationpanda.com/tag/pycharm/
+      - text: PyCharm
+    - link "PyCon (6 items)":
+      - /url: https://automationpanda.com/tag/pycon/
+      - text: PyCon
+    - link "PyOhio (3 items)":
+      - /url: https://automationpanda.com/tag/pyohio/
+      - text: PyOhio
+    - link "pytest (12 items)":
+      - /url: https://automationpanda.com/tag/pytest/
+      - text: pytest
+    - link "Python (52 items)":
+      - /url: https://automationpanda.com/tag/python/
+      - text: Python
+    - link "quality (5 items)":
+      - /url: https://automationpanda.com/tag/quality/
+      - text: quality
+    - link "REST (5 items)":
+      - /url: https://automationpanda.com/tag/rest/
+      - text: REST
+    - link "Ruby (3 items)":
+      - /url: https://automationpanda.com/tag/ruby/
+      - text: Ruby
+    - link "Screenplay (8 items)":
+      - /url: https://automationpanda.com/tag/screenplay/
+      - text: Screenplay
+    - link "Selenium (14 items)":
+      - /url: https://automationpanda.com/tag/selenium/
+      - text: Selenium
+    - link "shift-left (3 items)":
+      - /url: https://automationpanda.com/tag/shift-left/
+      - text: shift-left
+    - link "SpecFlow (10 items)":
+      - /url: https://automationpanda.com/tag/specflow/
+      - text: SpecFlow
+    - link "TDD (2 items)":
+      - /url: https://automationpanda.com/tag/tdd/
+      - text: TDD
+    - link "teamwork (4 items)":
+      - /url: https://automationpanda.com/tag/teamwork/
+      - text: teamwork
+    - link "test data (3 items)":
+      - /url: https://automationpanda.com/tag/test-data/
+      - text: test data
+    - link "testing (100 items)":
+      - /url: https://automationpanda.com/tag/testing/
+      - text: testing
+    - link "Testing Pyramid (7 items)":
+      - /url: https://automationpanda.com/tag/testing-pyramid/
+      - text: Testing Pyramid
+    - link "Three Amigos (5 items)":
+      - /url: https://automationpanda.com/tag/three-amigos/
+      - text: Three Amigos
+    - link "travel (2 items)":
+      - /url: https://automationpanda.com/tag/travel/
+      - text: travel
+    - link "unit (3 items)":
+      - /url: https://automationpanda.com/tag/unit/
+      - text: unit
+    - link "video games (3 items)":
+      - /url: https://automationpanda.com/tag/video-games/
+      - text: video games
+    - link "Visual Studio Code (3 items)":
+      - /url: https://automationpanda.com/tag/visual-studio-code/
+      - text: Visual Studio Code
+    - link "web (16 items)":
+      - /url: https://automationpanda.com/tag/web/
+      - text: web
+    - link "WebDriver (11 items)":
+      - /url: https://automationpanda.com/tag/webdriver/
+      - text: WebDriver
+    - link "writing (2 items)":
+      - /url: https://automationpanda.com/tag/writing/
+      - text: writing
+  - complementary:
+    - heading "Tweets" [level=3]
+    - link "My Tweets":
+      - /url: https://twitter.com/AutomationPanda
+- contentinfo:
+  - link "Start a Blog at WordPress.com":
+    - /url: https://wordpress.com/?ref=footer_custom_blog
+  - text: .
+- link "Automation Panda":
+  - /url: https://automationpanda.com/
+- link "Start a Blog at WordPress.com":
+  - /url: https://wordpress.com/?ref=footer_custom_blog
+- text: .
+```

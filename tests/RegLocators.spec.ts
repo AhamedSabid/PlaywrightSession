@@ -8,7 +8,7 @@ test.skip('example test', async ({ page }) => {
   await page.getByPlaceholder("First Name").click();
   await page.getByPlaceholder("First Name").fill("Ahamed");
   await page.locator("textarea[ng-model='Adress']").fill("123 Main St");
-  await page.locator("text=Submit").click();
+  await page.locator("text=Submitttt").click();
 
    await page.getByRole("link",{name:"Home"}).click();
    
